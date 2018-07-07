@@ -1,0 +1,12 @@
+Index: test/hello.c
+===================================================================
+--- test.orig/hello.c	2018-07-06 11:20:54.768647374 +0000
++++ test/hello.c	2018-07-07 03:49:45.837494767 +0000
+@@ -1,5 +1,6 @@
+ #include <stdio.h>
+ 
+-void main(){
++int main(){
+ 	printf("Hello World");
++	return 0;
+ }
