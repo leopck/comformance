@@ -4,3 +4,6 @@ all:
 
 clean:
 	rm helloworld
+
+install:
+	touch hello
